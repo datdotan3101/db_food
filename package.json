@@ -1,0 +1,28 @@
+{
+  "name": "db_food",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/datdotan3101/db_food#readme",
+  "bugs": {
+    "url": "https://github.com/datdotan3101/db_food/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datdotan3101/db_food.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10",
+    "sequelize": "^6.37.7"
+  }
+}
